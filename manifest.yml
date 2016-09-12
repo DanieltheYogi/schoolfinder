@@ -1,0 +1,25 @@
+
+---
+declared-services:
+  cloudant:
+    label: cloudantNoSQLDB
+    plan: Shared
+  personality-insights-service-standard:
+    label: personality_insights
+    plan: standard
+  tradeoff-analytics-standard-service:
+    label: tradeoff_analytics
+    plan: standard
+applications:
+- services:
+  - personality-insights-service
+  - tradeoff-analytics-service
+  - cloudant
+  name: university-club-school-finder
+  command: npm start
+  path: .
+  memory: 512M
+  instances: 2
+  env:
+    NODE_ENV: production
+    SECURE_EXPRESS: true
