@@ -1,6 +1,8 @@
-# NYC School Finder
+# University Club School Finder
 
-## Watson Hackathon Entry from Havas Worldwide New York - 4-5 May, 2015
+## Cloned from NYCSchoolFinder - Watson Hackathon Entry from Havas Worldwide New York - 4-5 May, 2015
+
+## NOTE: All technical engineering in this project currently can be attributed entirely to the original NYCSchoolFinder team; this may change in the future and this note will be updated accordingly if/when this occurs.
 
 ### Links
 
